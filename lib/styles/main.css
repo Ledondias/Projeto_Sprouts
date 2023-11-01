@@ -1,0 +1,73 @@
+body{
+    font-family: 'Robik', sans-serif;
+}
+.navbar{
+    background-color: #b8860b;
+}
+.navbar-toggler{
+    background-color: #c87832;
+}
+#header .nav .nav-item a, #header .nav .nav-link, .navbar h1, .navbar-brand, .navbar-brand:hover, .nav-menu .nav-link.active:hover, .card-body span{
+    color: #fff;
+}
+#header .nav .nav-link.active{
+    background-color: #ff6432;
+}
+.cedarville-text{
+    font-family: 'Cedarville Cursive', cursive;
+    color: #c87832;
+}
+.section-title, .navbar h1{
+    font-family: 'Lobster', cursive;
+}
+.text-span{
+    font-family: 'Lobster', cursive;
+    color: #c87832;
+}
+.section-background-color{
+    background-color: #b8860b66;
+}
+#about .carousel-item img{
+    height: 85vh;
+}
+#classics .tab-content img{
+    height: 20vh;
+}
+.nav .tab-button{
+    color: #000;
+}
+.nav .tab-button.active, .card-body .span-title{
+    background-color: #ff6432;
+}
+.card-body img{
+    height: 30vh;
+}
+.card-body{
+    background-color: #b8860b99;
+}
+.card-text{
+    text-align: justify;
+    text-indent: 40px;
+}
+.card-btn, .card-btn:hover, .btn-form, .btn-form:hover{
+    background-color: #ff6432;
+    color: #fff;
+}
+form textarea{
+    resize: none;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links li a{
+    text-decoration: none;
+}
+.text-colored{
+    color: #ff6432;
+}
+@media  (max-width: 767px) {
+    .carousel-item img{
+        height: 290px;
+    }
+}
